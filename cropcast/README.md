@@ -1,8 +1,8 @@
-### Step-by-step guide to set up our app and get it running:
+### Step-by-step guide to set up the weather app and get it running:
 
-### Step 1: Download our `src` Folder
+### Step 1: Download the `src` Folder
 
-Firstly, download our zipped 'src' folder to your desired location. This folder contains all the custom pages and components of our webpage. Make sure it is extracted before moving onto the next step
+Firstly, download the zipped 'src' folder to your desired location. This folder contains all the custom pages and components of our webpage. Make sure it is extracted before moving onto the next step
 
 #### Step 2: Create a New React Application
 
@@ -16,7 +16,7 @@ Once you have made a new React app, navigate into the folder you just made; insi
 
 #### Step 4: Include the Google Maps API script
 
-Now, navigate into the public folder. You need to include a script tag in index.html to load the Google Maps JavaScript API.  Copy the script tag provided below :
+Now, navigate into the public folder. You need to include a script tag in index.html to load the Google Maps JavaScript API. Copy the script tag provided below :
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5vbsQyArB1D7GggVhSX4rIZkJStQo80g&libraries=visualization"></script>
 
@@ -29,10 +29,8 @@ Now we have set up src; we need to set up the necessary dependencies. Make sure 
 npm install axios
 npm install moment
 
-
 ### Step 6: Start the Application
 
-Now , we can start the application and do this by running the following command: 
+Now , we can start the application and do this by running the following command:
 
 npm start
-
