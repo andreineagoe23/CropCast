@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+### Step-by-step guide to set up our app and get it running:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Step 1: Download our `src` Folder
 
-## Available Scripts
+Firstly, download our zipped 'src' folder to your desired location. This folder contains all the custom pages and components of our webpage. Make sure it is extracted before moving onto the next step
 
-In the project directory, you can run:
+#### Step 2: Create a New React Application
 
-### `npm start`
+Next, choose any directory where you'd like to create a new React project for testing. Now open up the terminal, navigate to this directory, and execute the command below to create a new React application in the example:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npx create-react-app ./
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Step 3: Replace the Default `src` Folder
 
-### `npm test`
+Once you have made a new React app, navigate into the folder you just made; inside this folder, you will see a folder called src. You need to replace this folder with the version of src you extracted earlier. To do this, copy our version of src into the folder, and you will be given the option to overwrite src. Click yes and allow it to copy everything.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Step 4: Include the Google Maps API script
 
-### `npm run build`
+Now, navigate into the public folder. You need to include a script tag in index.html to load the Google Maps JavaScript API.  Copy the script tag provided below :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5vbsQyArB1D7GggVhSX4rIZkJStQo80g&libraries=visualization"></script>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+place it within the <head> of your HTML file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 5: Install Required Dependencies
 
-### `npm run eject`
+Now we have set up src; we need to set up the necessary dependencies. Make sure your current directory is the one you make for the react project and enter the following command
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install axios
+npm install moment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Step 6: Start the Application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Now , we can start the application and do this by running the following command: 
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
