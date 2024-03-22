@@ -1,0 +1,119 @@
+
+.common-section{
+    margin: 1rem;
+    padding: 1rem;
+    background: linear-gradient(to bottom, #232329, #7aaa2c);
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 1.5rem; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    
+}
+
+#section2 {
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-around; 
+    align-items: center;  
+
+  }
+
+.title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#line {
+    width: 1px;
+    height: 100px; 
+    background-color: white;
+}
+
+#section1 .box img{
+    display: block;    
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #section1 .box {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  #section1 .box .data {
+    margin-top: 0.5rem; 
+  }
+
+
+#section2 img{
+    width: 180px;
+    height: 120px;
+}
+
+.riseAndSet{
+    width: 100%; 
+}
+    
+#details{
+    width: 100%;
+    height: 200%;
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; 
+    align-items: center;  
+    padding: 1.5em;
+    font-weight: 700;
+}
+
+.box{  
+    align-items: center;
+    padding: 0.5rem 0;
+    color: white;
+}
+
+#section1 {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;  
+    height: 3rem;
+    width: 100%; /* Set width to 100% of parent */
+}
+
+#outer{
+    width: 100%;
+    display: flex; 
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center; 
+}
+
+#inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.value{
+    display: block;
+    text-align: left;
+    margin-top: .3rem;
+    font-weight: 300;
+}
+
+.location{
+    text-transform: capitalize;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    color: white;
+}
+  

@@ -1,0 +1,107 @@
+ /* recomStyl.css */
+
+ /*Styling of of the whole page*/
+ #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/*Styling of the recommendations, alerts and crops sections*/
+.recom-container,
+.alert-container,
+.crop-container {
+  border-radius: 1.5rem;
+  padding: 20px;
+  padding-bottom: 40px; 
+  width: 90%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  opacity: 0.9;
+  background: linear-gradient(to bottom, #232329, #7aaa2c);
+  color: white;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+/*Styling of the indexes of the list of the recommendations*/
+.recom-container ul li {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  border-radius: 1.5rem;
+}
+
+/*Styling of the list of recommendations*/
+.recom-container ul {
+  padding: 0;
+  list-style: none;
+}
+
+/*Styling of the section's headings*/
+.recom-container h2,
+.alert-container h2,
+.crop-container h2 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/*Styling of the input areas and buttons of alerts and crops sections */
+.alert-container input[type="text"],
+.crop-container input[type="text"],
+.alert-container button,
+.crop-container button {
+  margin-bottom: 10px;
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*More styling of the alerts and crops sections */
+.alert-container button,
+.crop-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*Styling of alerts and crops lists */
+.alert-list,
+.crop-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*Styling of alerts and crops lists items */
+.alert-list-item,
+.crop-list-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the last list item in a list */
+.alert-list-item:last-child,
+.crop-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/*Styling of the map's section */
+.map-container {
+  border-radius: 1.5rem;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
